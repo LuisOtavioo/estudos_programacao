@@ -10,8 +10,8 @@ pB = 200000 #país B
 ano = 0
 
 while pA < pB :
-	pA = (pA * 0.03) + pA
-	pB = (pB * 0.015) + pB
+	pA = (pA * 0.03) + pA 	# aumento de 3%
+	pB = (pB * 0.015) + pB 	# aumento de 1.5%
 	ano += 1
 	
 print(f"levara {ano} anos para a população igualar")
