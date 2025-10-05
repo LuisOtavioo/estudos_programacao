@@ -10,7 +10,7 @@ B = 0 #candidato2
 C = 0 #candidato3
 
 #print("************") 
-print("\n" * 10) #equivalente
+print("\n" ) #equivalente
 
 # enquanto a contagem for menor que o numero de candidatos, o programa continuará rodando 
 

@@ -9,7 +9,7 @@ no curso e também algumas curiosidades ou algo relevante que estou aprendendo/u
 
 - Repetições:
     prof pediu para eu não usar "try" e "except" por enquanto
-    não sei se usaremos no curso.
+    (não sei se usaremos no curso.)
 
 - Variáveis: 
 
