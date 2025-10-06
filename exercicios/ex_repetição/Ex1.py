@@ -2,28 +2,34 @@
 #seja inválido e continue pedindo até que o usuário informe um valor válido.
 
 print("AVALIAÇÃO DE ATENDIMENTO")
-while True:  
-    try:
-        nota = int(input("Avalie nosso atendimento de 0 à 10: "))
-        
-        if 0 <= nota <= 10:  # Verifica se a nota está entre 0 e 10
-            break  # Sai do loop se a nota for válida
-        else:
-            print("Nota inválida! Digite um número entre 0 e 10.")
-    
-    except ValueError:  # Se o usuário digitar algo que não é número
-        print("Por favor, digite apenas números!")
 
-if nota in range (5,11):
-    print("Agrdecemos a preferencia!")
-    print("=" * 50)
-    exit()
-elif (0 < nota < 5):
-    print("Lamentamos não ter atendido suas expectativas.")
-    melhoria = input("Gostaria de adicionar um comentário para a melhoria do antendimento? (S/N) \n").upper()
+while True:  
+    nota = int(input("Avalie nosso atendimento de 0 à 10: "))
     
-if melhoria == 'S': 
-    comentario = input("Adicione seu comentário: \n")
-    print("Vamos melhorar!")
-else:
-    print("Agrdecemos a preferencia.")
+    if 0 <= nota <= 10:  
+        break  
+    else:
+        print("Nota inválida! Digite um número entre 0 e 10.")
+
+
+# Feedback 
+
+# 1. Notas de 5 a 10 (Satisfeito)
+if nota >= 5 and nota <= 10:
+    print("Agradecemos a preferência!")
+    print("=" * 50)
+
+# 2. Notas de 1 a 4 (Insatisfeito)
+elif nota > 0 and nota < 5:
+    print("Lamentamos não ter atendido suas expectativas.")
+    
+    # Coleta de feedback (não precisa de loop, pois aceitamos qualquer entrada)
+    melhoria = input("Gostaria de adicionar um comentário para a melhoria do atendimento? (S/N) ").upper()
+    
+    if melhoria == 'S': 
+        comentario = input("Adicione seu comentário: \n")
+        print("Agradecemos o seu feedback! Vamos melhorar!")
+    else:
+        print("Agradecemos a preferência.")
+
+
