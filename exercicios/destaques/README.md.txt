@@ -1,2 +1,0 @@
-NOTAS
-Exercícios melhorados
