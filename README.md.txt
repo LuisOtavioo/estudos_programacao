@@ -1,9 +1,13 @@
-Anotações de Estudo - Python 
+#Exercícios de Introdução à Computação (Python)
 
-"(ex_[...])" - realizado em casa com VS Code.
-"(em sala)" - realizado em sala com o Geany.
-"(destaques)" - exercícios melhorados 
+Este repositório armazena o material prático desenvolvido durante o curso de **Introdução à Computação**, com foco na linguagem **Python**. O objetivo é consolidar o aprendizado, praticar a lógica de programação e acompanhar minha evolução.
 
 
-- Observações:
-    Try/except não serão usados em exercícios.
+
+Alguns dos tópicos e conceitos que você encontrará neste material incluem:
+
+* Estruturas de Controle (Decisão e Repetição)
+* Tipos de Dados e Variáveis
+* Funções e Modularização
+* Estruturas de Dados Básicas (Listas, Tuplas, Dicionários)
+* Manipulação de Arquivos
