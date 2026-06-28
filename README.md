@@ -5,7 +5,7 @@ O objetivo é consolidar o aprendizado, praticar a lógica de programação e ac
 
 Alguns dos tópicos e conceitos que você encontrará neste material incluem:
 * Estruturas de Controle (Decisão e Repetição)
-* Tipos de Dados e Variáveis
+* Tipos de Dados e Variáveis 
 * Funções e Modularização
 * Estruturas de Dados Básicas (Listas, Tuplas, Dicionários)
 * Manipulação de Arquivos
